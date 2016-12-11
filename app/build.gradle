@@ -11,7 +11,11 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     buildTypes {
+        debug {
+            debuggable true
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -27,4 +31,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     compile 'com.google.zxing:core:3.2.1'
+    compile 'com.google.android.gms:play-services-vision:10.0.1'
+    compile 'com.android.support:design:24.2.0'
+    //compile 'com.google.android.gms:play-services:10.0.1'
 }
+
+apply plugin: 'com.google.gms.google-services'

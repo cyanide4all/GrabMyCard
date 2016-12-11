@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "220132940587",
+    "firebase_url": "https://grabmycard.firebaseio.com",
+    "project_id": "grabmycard",
+    "storage_bucket": "grabmycard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220132940587:android:8820aabe0d456b41",
+        "android_client_info": {
+          "package_name": "cyanoboru.grabmycard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220132940587-47gdi034o01vaqeh0afu87h4i4s1veb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3sM0Zpg43U-A4n5vHtfsW0Ucw9ONIIBY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

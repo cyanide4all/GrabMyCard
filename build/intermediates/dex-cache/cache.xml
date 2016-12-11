@@ -2,166 +2,256 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_286b8fac61cdcce3fa29e10fe32192ef5ce9e8d0/classes.dex" />
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_8f35944557b727e811ff0db3d9b8208040c720d8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b6ee3007e96797855414a42e444ba5f6f0e55385/classes.dex" />
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_9ca01b869e3e360a42157919d68111ca64dee7f7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_149981f8d22dcef6ac96399a36c658f771bc3975/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_e589e7901591e0b459e830a1d836db8b5d9a024c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_c491d3b527842014a1edb5b5c78d018e0d8e7ac8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_9e4e532ee374fb9fd45a512a903766acc653709d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_30179446a68ba70a304a3aaacf86f86af25e8e40/classes.dex" />
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d4892e74ddb473a62e8e3e6a1e31352b21191b0a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_224828622c7dbc3922221ba144811b343a0b1122/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/core-3.2.1_b3c16cd6f42cf98ca600b14ba2840a8d6464dc6d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_7ab28b4dda44250a7c42499273598f6459f5ec60/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="dd7e9befcf810ae8bca208922e25244651bb8f0c">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9e748fd4539503001c03f261862e9b34ba7f2d55/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d674108755a5f55e7b4803cf0d74386e658b69ff/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9acc6c72e0a0c21bba4e64a4bafaff40b502d1bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_4f0410789a08e934d7302e98f5e1b24058cff1b7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_f7de61ca26fc4d48a14a9b4c1d73a2fbf3995357/classes.dex" />
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_1c3e0f640334d8a16d1c58b02b7f6835732c290f.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="5e4f307e24fe10226e9a0641112e86dfed967dba">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8c742afd9288719ca4180f786771c08678af075e/classes.dex" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_103c0bdbfaf6799b9ecc6e8da30b71523be965b0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_978cced269a16cb103bd6a80d2ca294233a0ba24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_6994f56c535a6a01e838fd35342196af77e4820c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_b5d22780315390df70aeb4afcb7deb19547f278e/classes.dex" />
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_30c6d209bc3c538d643981896ff37704802c5d1a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/cya/gitclones/GrabMyCard/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_88e1cd2865c022045c8a315fd86c7e838b1cb921.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-10.0.1_7136d7ec4d35ff09325459421a5f7a19e9a78dca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_9490551bfd7de0ca276f290266635cb1a409b4d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5d4e4570bfe78bdf409738d2234376a32104aa3c">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_94d3dd1efd43de1e85cdf538c6ac0716b1d7fb59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_065341f79e3930342f0d1135580cd460e60cfb69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_c6d23a18958d8456f64893af1627232df229df74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8b1a2730f8b2bf9632a195622ee5f2b6655eef27">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\instant-run_c241871ace31ec4900f1657c8cb93c4d8ebf24dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-10.0.1_8233c0786218c656c33efb119c1144272f6c3fd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_fe1cb244a5ed634588253338b1c056b84588c530.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Programas\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_955cc8379988be384b969a09e966fcdc4c6c4257.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_3a9712a0fc4b39b2b70231c7311b8f257f4a35ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/cya/gitclones/GrabMyCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_6c083577e39078584ab86b905eeb26889ac09f7d/classes.dex" />
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_da6406afdf3bb9ee0ec394ff995916541592664d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Martín\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\core-3.2.1_0b6c3f53ed18fbf42d163dbe0c409dcd8a4157b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-10.0.1_0d5a7892f911f7088eb82ba4bc5a439f2646e288.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_487344fe644d13e69cd194e813b3749b00b9ed71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_765930900cedc38bedc2778ff7c2fe598b91e798.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_cf3ba53e642f6f00ae137385a7a39b94aac5e876.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-10.0.1_dbaa5586adbf2e6c07a4b320ec461418dcafa06e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_aa8e6d154647916098bb9c2d2da31d05080d01c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Workspace\GrabMyCard\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\10.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="D:\Workspace\GrabMyCard\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-10.0.1_045cf4c5b3723c35a7c102c4c5f73abb3fec6d54.jar" />
     </item>
 
 </items>
