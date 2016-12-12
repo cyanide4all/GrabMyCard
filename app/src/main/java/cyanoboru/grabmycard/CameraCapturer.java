@@ -74,7 +74,10 @@ public final class CameraCapturer extends AppCompatActivity {
         mGraphicOverlay = (GraphicOverlay<BarcodeGraphic>) findViewById(R.id.graphicOverlay);
 
         // read parameters from the intent used to launch the activity.
-        boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
+
+        //He decidido comentar esta línea y añadir la de abajo porque el autofocus siempre es bueno
+        //boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
+        boolean autoFocus = true;
         boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
 
         // Check for the camera permission before accessing the camera.  If the
@@ -165,8 +168,8 @@ public final class CameraCapturer extends AppCompatActivity {
             boolean hasLowStorage = registerReceiver(null, lowstorageFilter) != null;
 
             if (hasLowStorage) {
-                Toast.makeText(this, "HUEHEUHEUEHUE", Toast.LENGTH_LONG).show();
-                Log.w(TAG, "HUEHEUHEU");
+                Toast.makeText(this, "Low Storage. Free some disk space and try again", Toast.LENGTH_LONG).show();
+                Log.w(TAG, "Low storage");
             }
         }
 
@@ -179,6 +182,10 @@ public final class CameraCapturer extends AppCompatActivity {
                 .setRequestedFps(15.0f);
 
         // make sure that auto focus is an available option
+
+        //
+        //AQUI VA A HABER QUE TOCAR ESTO
+        //
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
             builder = builder.setFocusMode(
                     autoFocus ? Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE : null);
