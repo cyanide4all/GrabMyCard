@@ -1,27 +1,35 @@
 {
   "project_info": {
-    "project_number": "220132940587",
-    "firebase_url": "https://grabmycard.firebaseio.com",
-    "project_id": "grabmycard",
-    "storage_bucket": "grabmycard.appspot.com"
+    "project_number": "731315687468",
+    "firebase_url": "https://grabmc-febe3.firebaseio.com",
+    "project_id": "grabmc-febe3",
+    "storage_bucket": "grabmc-febe3.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:220132940587:android:8820aabe0d456b41",
+        "mobilesdk_app_id": "1:731315687468:android:8820aabe0d456b41",
         "android_client_info": {
           "package_name": "cyanoboru.grabmycard"
         }
       },
       "oauth_client": [
         {
-          "client_id": "220132940587-47gdi034o01vaqeh0afu87h4i4s1veb1.apps.googleusercontent.com",
+          "client_id": "731315687468-ghmu1oonhd47sufh9a563e0kbce0fok3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cyanoboru.grabmycard",
+            "certificate_hash": "32F26061B188064179C3285290964DC34B317B81"
+          }
+        },
+        {
+          "client_id": "731315687468-5iftvsoea4kri6og2pi6684e7aoksq0i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD3sM0Zpg43U-A4n5vHtfsW0Ucw9ONIIBY"
+          "current_key": "AIzaSyCQeH0weYsuCgkEYDkJjIZMTZpxeYp_NcY"
         }
       ],
       "services": {
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731315687468-5iftvsoea4kri6og2pi6684e7aoksq0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

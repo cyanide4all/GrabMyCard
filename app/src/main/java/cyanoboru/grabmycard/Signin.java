@@ -24,13 +24,12 @@ import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.AuthCredential;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GoogleAuthProvider;
-import com.google.firebase.database.FirebaseDatabase;
+
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -79,7 +78,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener, G
 
             // Configure Google Sign In
             GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                    .requestIdToken("401180061321-s2vkfn53lerm3isuo7lenvn2ts80ocuh.apps.googleusercontent.com")
+                    .requestIdToken("731315687468-5iftvsoea4kri6og2pi6684e7aoksq0i.apps.googleusercontent.com")
                     .requestEmail()
                     .build();
             mGoogleApiClient = new GoogleApiClient.Builder(this)
@@ -89,6 +88,9 @@ public class Signin extends AppCompatActivity implements View.OnClickListener, G
 
             Button emailsigin = (Button) findViewById(R.id.buttonsigin);
             emailsigin.setOnClickListener(this);
+
+            Button register = (Button) findViewById(R.id.buttonregister);
+            register.setOnClickListener(this);
 
             email = (EditText) findViewById(R.id.emailsigin);
             pass = (EditText) findViewById(R.id.passwordsigin);
@@ -191,10 +193,15 @@ public class Signin extends AppCompatActivity implements View.OnClickListener, G
 
         @Override
         public void onClick(View v) {
+            Log.d("COSA 1",Integer.toString(v.getId()));
+            Log.d("COSA 2",Integer.toString(R.id.buttonregister));
             if(v.getId() == R.id.sign_in_button) {
+
                 Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
                 startActivityForResult(signInIntent, RC_SIGN_IN);
-            }else if(v.getId() == R.id.buttonsiginregister){
+
+            }else if(v.getId() == R.id.buttonregister){
+                Log.d("Registrandose o algo","T");
                 mAuth.createUserWithEmailAndPassword(email.getText().toString(), pass.getText().toString())
                         .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                             @Override
@@ -208,6 +215,7 @@ public class Signin extends AppCompatActivity implements View.OnClickListener, G
                             }
                         });
             }else {
+                Log.d("Signup o algo","T");
                 mAuth.signInWithEmailAndPassword(email.getText().toString(), pass.getText().toString())
                         .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                             @Override
