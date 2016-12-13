@@ -193,15 +193,12 @@ public class Signin extends AppCompatActivity implements View.OnClickListener, G
 
         @Override
         public void onClick(View v) {
-            Log.d("COSA 1",Integer.toString(v.getId()));
-            Log.d("COSA 2",Integer.toString(R.id.buttonregister));
             if(v.getId() == R.id.sign_in_button) {
 
                 Intent signInIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
                 startActivityForResult(signInIntent, RC_SIGN_IN);
 
             }else if(v.getId() == R.id.buttonregister){
-                Log.d("Registrandose o algo","T");
                 mAuth.createUserWithEmailAndPassword(email.getText().toString(), pass.getText().toString())
                         .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                             @Override
@@ -215,7 +212,6 @@ public class Signin extends AppCompatActivity implements View.OnClickListener, G
                             }
                         });
             }else {
-                Log.d("Signup o algo","T");
                 mAuth.signInWithEmailAndPassword(email.getText().toString(), pass.getText().toString())
                         .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                             @Override
